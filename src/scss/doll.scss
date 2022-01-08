@@ -1,0 +1,117 @@
+.doll{
+  &__div{
+    display: flex;
+    &-audio{
+      width: 462px;
+      margin: 40px 0;
+      height: 30px;
+    }
+  }
+  &__divv{
+    display: flex;
+    column-gap: 25px;
+    margin: -52px 0 0 0;
+    &-title{
+      font-family: sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 72px;
+      color: #FFFFFF;
+      transition: all .5s;
+      &:hover{
+        color: #7A66CC;
+        transform: scale(1.09);
+      }
+
+    }
+    &-img1{
+      height: 22px;
+      margin-top: 31px;
+    }
+  }
+  &__divvv{
+    &-link{
+      font-family: sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 27px;
+      color: #FFFFFF;
+      list-style-type: none;
+      margin: 30px 0;
+      transition: all .5s;
+      &:hover{
+        color: #7A66CC;
+        transform: scale(1.09);
+      }
+
+      span{
+        font-family:sans-serif ;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 21px;
+        color: #FFFFFF;
+        opacity: 0.5;;
+      }
+    }
+  }
+  &__fiv{
+    display: flex;
+    &-title{
+      font-family: sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 36px;
+      color: #FFFFFF;
+      margin: 0 38px 0 0 ;
+      transition: all .5s;
+      &:hover{
+        color: #7A66CC;
+        transform: scale(1.09);
+      }
+    }
+    &-tok{
+      font-family: sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+      color: #FFFFFF;
+      margin: 14px 0 0 0;
+      transition: all .5s;
+      &:hover{
+        color: #7A66CC;
+        transform: scale(1.09);
+      }
+    }
+    &-tok1{
+      font-family: sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+      color: #FFFFFF;
+      margin: 14px 33px 0 0;
+      transition: all .5s;
+      &:hover{
+        color: #7A66CC;
+        transform: scale(1.09);
+      }
+
+    }
+    &-img{
+      margin:  0 15px 0 0;
+      height: 40px;
+      transition: all .5s;
+      &:hover{
+        color: #7A66CC;
+        transform: scale(1.2);
+        background-color: #7A66CC;
+      }
+    }
+  }
+
+}

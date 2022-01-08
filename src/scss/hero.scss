@@ -1,0 +1,39 @@
+.hero{
+
+  background: url("../../src/images/hero/Rectangle 6.png") top left/ 100% 100%  no-repeat;
+max-width: 100%;
+
+
+
+    &__link{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+      margin-top: 226px;
+    color: #FFFFFF;
+
+      }
+      &__link1{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 100px;
+        line-height: 150px;
+        color: rgba(0, 0, 0, 0.6);
+        margin: 38px 0;
+
+    }
+  &__audio{
+    width: 1050px;
+    max-width: 100%;
+    padding: 0 18px;
+    height: 30px;
+
+    margin: 27px 0 200px;
+
+  }
+
+  }
+

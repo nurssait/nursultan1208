@@ -1,0 +1,14 @@
+.slider{
+  align-items: center;
+  justify-content: center;
+  &__div{
+    justify-content: center;
+    align-items: center;
+    margin-top: 151px;
+    margin-left: 35px;
+    &-img1{
+      margin: 0 21px 0 21px;
+    }
+  }
+
+}

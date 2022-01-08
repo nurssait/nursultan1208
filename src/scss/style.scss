@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.div{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #1C1B21;
+
+
+}
+  .container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    left: 15px;
+  }
+.row{
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+.col-6{
+  width: 50%;
+  padding: 0 15px;
+}
+
+.col-4{
+  width: 33.3%;
+  padding: 0 15px;
+}
+.col-3{
+  width: 25%;
+  padding: 0 15px;
+}
+
+
+
+
+
+@import "hero";
+@import "header";
+@import "nur";
+@import "title";
+@import "j";
+@import "doll";
+@import "photo";
+@import "slider";
+@import "footer";
+@import "media";
+
+
+

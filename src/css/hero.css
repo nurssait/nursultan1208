@@ -1,0 +1,5 @@
+.hero {
+  margin-top: -60px;
+  background: url("../../src/images/hero/Rectangle 6.png") top left/100% 100% no-repeat;
+  height: 125vh;
+}
